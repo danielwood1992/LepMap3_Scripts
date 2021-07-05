@@ -8,4 +8,4 @@ LM_ScaffInformed_StartingOrder.pl : LepMap3's OrderMarkers2 can take a starting 
 
 
 LM_FindBestOrder.sh:                Using 10 replicates of the output of each LM_ScaffInformed_StartingOrder.pl, runs OrderMarkers2 and summarises the likelihood of each 
-                                    run into an output folder. Repeats this in parallel for each chromosome.
+                                    run into an output folder. Repeats this in parallel for each chromosome. Is a slurm submission script.
